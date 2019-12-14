@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{7BB0A40F-6298-4E30-A8A0-46E80325603B}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TetrisA/Controller.fs">
+    <Files>
+      <File FileName="TetrisA/Controller.fs" Line="106" Column="9" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TetrisA" expanded="True">
+            <Node name="TetrisA" expanded="True">
+              <Node name="Properties" expanded="True" />
+              <Node name="Controller.fs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.TetrisA PreferredExecutionTarget="Android.03773710251296" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

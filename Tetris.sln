@@ -1,0 +1,25 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "TetrisAndroid", "TetrisAndroid\TetrisAndroid.fsproj", "{7BB0A40F-6298-4E30-A8A0-46E80325603B}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "TetrisShared", "TetrisShared\TetrisShared.shproj", "{9F79CB66-5103-413A-9E9E-2185849C7DA4}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "TetrisDesktop", "TetrisDesktop\TetrisDesktop.fsproj", "{928DC314-3DB4-4330-90C0-16B737D5D21A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BB0A40F-6298-4E30-A8A0-46E80325603B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BB0A40F-6298-4E30-A8A0-46E80325603B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BB0A40F-6298-4E30-A8A0-46E80325603B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BB0A40F-6298-4E30-A8A0-46E80325603B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{928DC314-3DB4-4330-90C0-16B737D5D21A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{928DC314-3DB4-4330-90C0-16B737D5D21A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{928DC314-3DB4-4330-90C0-16B737D5D21A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{928DC314-3DB4-4330-90C0-16B737D5D21A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

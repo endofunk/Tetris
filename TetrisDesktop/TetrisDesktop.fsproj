@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Content\Title.png" />
+  </ItemGroup>
+  <Import Project="..\TetrisShared\TetrisShared.projitems" Label="Shared" Condition="Exists('..\TetrisShared\TetrisShared.projitems')" />
+  <ItemGroup>
+    <MonoGameContentReference Include="Content\Content.mgcb" />
+    <None Include="Content\Logo.png" />
+    <None Include="Content\Block.png" />
+    <None Include="Content\Empty.png" />
+    <None Include="Content\Font16.spritefont" />
+    <None Include="Content\Font22.spritefont" />
+    <None Include="Content\Font20.spritefont" />
+    <PackageReference Include="MonoGame.Framework.DesktopGL.Core" Version="3.7.0.7" />
+    <PackageReference Include="MonoGame.Content.Builder" Version="3.7.0.9" />
+    <Compile Include="Controller.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+</Project>
